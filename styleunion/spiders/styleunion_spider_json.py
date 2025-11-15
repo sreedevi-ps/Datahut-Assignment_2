@@ -18,13 +18,14 @@ class StyleUnionSpiderJSON(scrapy.Spider):
     ]
 
     custom_settings = {
-        "CONCURRENT_REQUESTS": 2,  # Increased from 1
-        "DOWNLOAD_DELAY": 3,  # Reduced from 5
+        "CONCURRENT_REQUESTS": 2,
+        "DOWNLOAD_DELAY": 3,
         "RANDOMIZE_DOWNLOAD_DELAY": True,
         "AUTOTHROTTLE_ENABLED": True,
         "AUTOTHROTTLE_START_DELAY": 3,
         "AUTOTHROTTLE_MAX_DELAY": 10,
         "AUTOTHROTTLE_TARGET_CONCURRENCY": 2.0,
+        "DEPTH_LIMIT": 0,  # hope it will be considered as unlimited
     }
 
     def parse(self, response):
@@ -47,7 +48,7 @@ class StyleUnionSpiderJSON(scrapy.Spider):
         
         # Pagination
         current_page = self._extract_page_number(response.url)
-        if product_links and current_page < 50:  # Limit to 50 pages
+        if product_links and current_page < 100:  # Limiting to 100 for 1200
             next_page_url = self._build_next_page_url(response.url, current_page)
             yield scrapy.Request(next_page_url, callback=self.parse)
 
@@ -199,5 +200,3 @@ class StyleUnionSpiderJSON(scrapy.Spider):
         else:
             separator = "&" if "?" in url else "?"
             return f"{url}{separator}page={current_page + 1}"
-        
-        

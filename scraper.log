@@ -1,0 +1,307 @@
+2025-11-15 20:06:27 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: styleunion)
+2025-11-15 20:06:27 [scrapy.utils.log] INFO: Versions:
+{'lxml': '6.0.2',
+ 'libxml2': '2.14.6',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]',
+ 'pyOpenSSL': '25.3.0 (OpenSSL 3.5.4 30 Sep 2025)',
+ 'cryptography': '46.0.3',
+ 'Platform': 'Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2025-11-15 20:06:27 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-11-15 20:06:27 [py.warnings] WARNING: /home/sreedevi/styleunion-scraper/venv/lib/python3.12/site-packages/scrapy/utils/request.py:120: ScrapyDeprecationWarning: 'REQUEST_FINGERPRINTER_IMPLEMENTATION' is a deprecated setting.
+It will be removed in a future version of Scrapy.
+  return cls(crawler)
+
+2025-11-15 20:06:27 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2025-11-15 20:06:27 [scrapy.crawler] INFO: Overridden settings:
+{'AUTOTHROTTLE_ENABLED': True,
+ 'AUTOTHROTTLE_MAX_DELAY': 10,
+ 'AUTOTHROTTLE_START_DELAY': 3,
+ 'AUTOTHROTTLE_TARGET_CONCURRENCY': 2.0,
+ 'BOT_NAME': 'styleunion',
+ 'CONCURRENT_REQUESTS': 2,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
+ 'CONCURRENT_REQUESTS_PER_IP': 1,
+ 'DEPTH_LIMIT': 100,
+ 'DOWNLOAD_DELAY': 3,
+ 'DOWNLOAD_TIMEOUT': 30,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'FEED_EXPORT_FIELDS': ['product_url',
+                        'product_name',
+                        'price',
+                        'sku',
+                        'size',
+                        'color',
+                        'size_list',
+                        'color_list',
+                        'description',
+                        'care_instructions',
+                        'image_urls',
+                        'product_details',
+                        'currency'],
+ 'FEED_EXPORT_INDENT': 2,
+ 'HTTPCACHE_ENABLED': True,
+ 'HTTPCACHE_IGNORE_HTTP_CODES': [429, 503],
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'styleunion.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'RETRY_HTTP_CODES': [429, 500, 502, 503, 504, 522, 524, 408, 400],
+ 'RETRY_TIMES': 5,
+ 'SPIDER_MODULES': ['styleunion.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+2025-11-15 20:06:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'styleunion.middlewares.CustomRetryMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'styleunion.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'styleunion.middlewares.RateLimitHandlerMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats',
+ 'scrapy.downloadermiddlewares.httpcache.HttpCacheMiddleware']
+2025-11-15 20:06:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-11-15 20:06:27 [scrapy.middleware] INFO: Enabled item pipelines:
+['styleunion.pipelines.CleanProductPipeline']
+2025-11-15 20:06:27 [scrapy.core.engine] INFO: Spider opened
+2025-11-15 20:06:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/air-dry-relaxed-fit-solid-t-shirt-wet00014.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/mid-rise-ankle-length-trouser-wtr00033.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/square-neck-full-sleeve-top-wto00218.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/full-sleeve-solid-shirt-wsh00179.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/shirt-collar-full-sleeve-shirt-wsh00178.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/mid-rise-ankle-length-palazzo-wpl00068.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/flare-high-rise-ricrac-cotton-trousers-wtr00015.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/embroidered-short-sleeve-top-wto00225.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/printed-cropped-sleeveless-top-wto00208.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/band-neck-solid-top-wto00207.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/v-neck-solid-top-wto00203.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/short-sleeve-lace-top-wto00192.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-sleeveless-top-wto00096.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/slim-fit-pencil-skirt-wsk00027.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/solid-full-sleeve-shirt-wsh00179.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-crew-neck-graphic-t-shirt-wgt00161.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-jacquard-t-shirt-pfct00003.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/slouch-fit-solid-high-rise-jeans-lej00004.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/elastomultiester-fabric-ultra-light-weight-enhanced-flexibility-and-stretch-wicking-technology-fast-dry-and-breathable-mobile-pocket-air-shorts-atst00001.json
+2025-11-15 20:06:27 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-solid-mid-rise-trousers-smlw00004.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-crew-neck-graphic-t-shirt-wgt00153.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/structured-puff-sleeve-flared-dress-wd00334.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/structured-flared-dress-wd00331.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/structured-puff-sleeve-flared-dress-wd00330.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-sleeveless-flared-dress-wd00327.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/floral-collar-sleeveless-dress-wd00324.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/floral-strappy-flared-dress-wd00176.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-graphic-t-shirt-wgt00120.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-crew-neck-graphitee-wgt00168.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-crew-neck-graphitee-wgt00164.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-graphic-crew-neck-t-shirt-wgt00158.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-crew-neck-graphitee-wgt00148.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-graphic-crew-neck-t-shirt-wgt00140.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-crew-neck-graphitee-wgt00131.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-graphic-crew-neck-t-shirt-wgt00130.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-graphic-crew-neck-t-shirt-wgt00125.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-jacquard-t-shirt-pfct00003.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/slouch-fit-solid-high-rise-jeans-lej00004.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/elastomultiester-fabric-ultra-light-weight-enhanced-flexibility-and-stretch-wicking-technology-fast-dry-and-breathable-mobile-pocket-air-shorts-atst00001.json
+2025-11-15 20:06:32 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-solid-mid-rise-trousers-smlw00004.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/structured-puff-sleeve-dress-wd00338.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/structured-shirt-collar-dress-wd00299.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/printed-tie-up-neck-dress-wd00215.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/boat-neck-sleeveless-top-wto00180.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-graphic-t-shirt-wgt00142.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-graphic-t-shirt-wgt00136.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-graphic-t-shirt-wgt00135.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-graphic-t-shirt-wgt00126.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-graphic-t-shirt-wgt00119.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-graphic-t-shirt-wgt00113.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-schiffi-strappy-dress-wd00182.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/solid-low-cut-socks-lso0021offwhitebrown.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/solid-low-cut-socks-lso0021navymelmidgrey.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/solid-low-cut-socks-lso0021mintblack.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/abstract-printed-full-sleeve-top-wto00183.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/solid-shirt-with-front-pocket-details-wsh00177.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-jacquard-t-shirt-pfct00003.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/slouch-fit-solid-high-rise-jeans-lej00004.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/elastomultiester-fabric-ultra-light-weight-enhanced-flexibility-and-stretch-wicking-technology-fast-dry-and-breathable-mobile-pocket-air-shorts-atst00001.json
+2025-11-15 20:06:38 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-solid-mid-rise-trousers-smlw00004.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-printed-crew-neck-t-shirt-wgt00139.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/schiffli-flared-dress-wd00276.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/stipped-flat-knit-cropped-sweater-ywflt00200.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/checkered-square-neck-slim-fit-tops-wto00184.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-crew-neck-graphic-t-shirt-wgt00154.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-crew-neck-graphic-t-shirt-wgt00150.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-crew-neck-graphic-t-shirt-wgt00137.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-crew-neck-relaxed-graphic-t-shirt-wgt00115.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-crew-neck-relaxed-graphic-t-shirt-wgt00114.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-crew-neck-graphic-t-shirt-wgt00111.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/printed-flare-fit-full-length-dress-wd00301.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/full-length-straight-cullote-nel00064.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-graphic-t-shirt-wgt00106.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-graphic-t-shirt-wgt00101.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-sleeveless-shirt-dress-wd00232.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/puff-sleeve-structured-dress-wd00077.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-jacquard-t-shirt-pfct00003.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/slouch-fit-solid-high-rise-jeans-lej00004.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/elastomultiester-fabric-ultra-light-weight-enhanced-flexibility-and-stretch-wicking-technology-fast-dry-and-breathable-mobile-pocket-air-shorts-atst00001.json
+2025-11-15 20:06:43 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-solid-mid-rise-trousers-smlw00004.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/seamless-structured-cami-bra-brasl00004.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/polyester-trousers-wtr00016.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/v-neck-full-sleeve-top-wto00206.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/structured-cropped-top-with-puff-sleeves-wto00205.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/floral-polyester-top-full-sleeve-wto00190.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/printed-high-neck-top-wto00159.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/printed-flared-skirt-wsk00026.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/graphic-cotton-t-shirt-crew-neck-wgt00152.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/graphic-cotton-t-shirt-wgt00112.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/printed-cotton-dress-wd00326.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/printed-calf-length-dress-wd00315.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/structured-one-shoulder-dress-wd00314.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/printed-knee-length-dress-wd00313.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/embroidered-flared-dress-knee-length-wd00312.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/tribal-cotton-ankle-length-dress-wd00310.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/abstract-print-calf-length-dress-wd00298.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-jacquard-t-shirt-pfct00003.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/slouch-fit-solid-high-rise-jeans-lej00004.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/elastomultiester-fabric-ultra-light-weight-enhanced-flexibility-and-stretch-wicking-technology-fast-dry-and-breathable-mobile-pocket-air-shorts-atst00001.json
+2025-11-15 20:06:50 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-solid-mid-rise-trousers-smlw00004.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/embroidered-tie-up-neck-top-wto00165.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-printed-t-shirt-wgt00127.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-printed-t-shirt-wgt00110.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/printed-high-neck-dress-with-self-tie-bow-detail-wd00186.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/printed-strap-tie-up-dress-wd00172.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/flared-collar-dress-wd00150.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-schiffli-dress-wd00051.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/graphic-cotton-fabric-t-shirt-wgt00083.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/polyester-spandex-woven-top-wto00187.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/viscose-nylon-woven-top-wto00136.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/lace-polyester-puff-sleeve-top-wto00119.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-fabric-ruffle-sleeve-top-wto00111.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/polyester-flared-skirt-high-rise-wsk00021.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/lace-polyester-a-line-skirt-wsk00012.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/schiffi-cotton-fabric-shirt-wsh00127.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/polyester-structured-palazzos-wpl00064.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-jacquard-t-shirt-pfct00003.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/slouch-fit-solid-high-rise-jeans-lej00004.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/elastomultiester-fabric-ultra-light-weight-enhanced-flexibility-and-stretch-wicking-technology-fast-dry-and-breathable-mobile-pocket-air-shorts-atst00001.json
+2025-11-15 20:06:55 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-solid-mid-rise-trousers-smlw00004.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/graphic-cotton-fabric-t-shirt-wgt00124.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/graphic-cotton-fabric-t-shirt-wgt00098.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/graphic-cotton-fabric-t-shirt-wgt00096.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/cotton-schiffi-dress-sweetheart-neck-wd00328.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/checkered-polyester-spandex-dress-wd00249.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/printed-polyester-dress-below-knee-length-wd00210.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/checkered-polyester-puff-sleeve-dress-wd00140.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/solid-ankle-lenght-leggings-eal00006.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/woven-solid-v-neck-sleeveless-top-wto00158.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/woven-embroidered-v-neck-full-sleeve-top-wto00146.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/woven-striped-round-neck-top-wto00134.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/woven-embroidered-shirt-wsh00140.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/knitted-graphic-t-shirt-wgt00129.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/knitted-graphic-t-shirt-wgt00109.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/knitted-graphic-t-shirt-wgt00108.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/zebra-print-square-neck-polyester-dress-wd00304.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-jacquard-t-shirt-pfct00003.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/slouch-fit-solid-high-rise-jeans-lej00004.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/elastomultiester-fabric-ultra-light-weight-enhanced-flexibility-and-stretch-wicking-technology-fast-dry-and-breathable-mobile-pocket-air-shorts-atst00001.json
+2025-11-15 20:07:01 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-solid-mid-rise-trousers-smlw00004.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/woven-embroidered-u-neck-flared-strapy-dress-wd00288.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/knee-length-isabella-sleeveless-flared-shirt-dress-with-tie-up-belt-wd00282.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/woven-camp-collar-juliette-printed-dress-wd00278.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/woven-strapy-flared-solid-dress-wd00248.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/woven-strapy-flared-printed-dress-wd00239.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/woven-strapy-flared-printed-dress-wd00236.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/woven-solid-mandarin-collar-tiered-dress-wd00212.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/floral-sleeveless-flared-dress-wd00246.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/floral-square-neck-strappy-top-with-tie-detail-wto00142.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/printed-sleeveless-top-wto00156.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/straight-fit-printed-high-rise-palazzo-wpl00038.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/v-neck-peplum-embroidered-top-wto00153.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/sleeveless-front-button-up-dress-with-square-neck-wd00286.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/long-embroidered-tiered-dress-wd00209.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/off-shoulder-neck-solid-flared-dress-wd00100.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/flare-fit-embroidered-kurta-and-pant-with-dupatta-set-es00064.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-jacquard-t-shirt-pfct00003.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/slouch-fit-solid-high-rise-jeans-lej00004.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/elastomultiester-fabric-ultra-light-weight-enhanced-flexibility-and-stretch-wicking-technology-fast-dry-and-breathable-mobile-pocket-air-shorts-atst00001.json
+2025-11-15 20:07:08 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-solid-mid-rise-trousers-smlw00004.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/flare-fit-textured-culottes-nel00041.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/flare-fit-printed-square-neck-tiered-dress-nd00027.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/flare-fit-mid-rise-printed-skirt-esk00023.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/straight-fit-solid-workwear-kurta-with-pant-set-ems00058.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-checkered-shirt-with-inner-ywsh00060.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/striped-dolman-sleeve-top-wto00150.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/round-neck-graphic-t-shirt-wgt00100.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-top-with-smocking-detail-ywto00234.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/denim-basic-waistcoat-with-metal-button-closure-ywto00143.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-tiered-skirt-with-floral-all-over-print-ywsk00074.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-olive-midi-skirt-with-belt-detailing-at-waist-ywsk00052.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/denim-blue-skirt-streetwear-front-slit-high-waist-long-skirts-with-open-hem-ywsk00046.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/regular-fit-betty-shirt-ywsh00120.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-shirt-with-front-tie-up-detail-ywsh00102.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-checkered-hoodie-style-cropped-shirt-ywsh00089.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-front-zipper-shirt-with-patch-pockets-ywsh00069.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-jacquard-t-shirt-pfct00003.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/slouch-fit-solid-high-rise-jeans-lej00004.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/elastomultiester-fabric-ultra-light-weight-enhanced-flexibility-and-stretch-wicking-technology-fast-dry-and-breathable-mobile-pocket-air-shorts-atst00001.json
+2025-11-15 20:07:13 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-solid-mid-rise-trousers-smlw00004.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-oversized-t-shirt-with-front-graphic-print-ywgt00212.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-tee-with-front-and-back-graphic-ywgt00203.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-t-shirt-with-front-graphic-print-ywgt00201.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-graphic-t-shirt-with-front-graphic-print-ywgt00192.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-t-shirt-with-front-graphic-print-ywgt00074.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-cropped-fashion-t-shirt-with-zipper-at-collar-ywft00238.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-relaxed-fit-fashion-t-shirt-with-extended-sleeves-ywft00142.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-peterpan-collar-fashion-t-shirt-ywft00122.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-fashion-striped-detail-knitted-t-shirt-ywft00111.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/relaxed-fit-betty-sleeveless-t-shirt-ywft00107.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-fashion-tee-with-front-ruching-detail-and-front-two-way-zipper-opening-ywft00090.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-sleeveless-crop-t-shirt-ywft00071.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-fashion-pants-with-patch-pockets-and-silver-rivet-detail-ywfp00071.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-fashion-pants-with-patch-pockets-ywfp00069.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-fashion-pants-made-with-comfortable-fabric-ywfp00023.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-essential-t-shirt-with-collar-and-partial-metal-zip-open-ywet00097.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-jacquard-t-shirt-pfct00003.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/slouch-fit-solid-high-rise-jeans-lej00004.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/elastomultiester-fabric-ultra-light-weight-enhanced-flexibility-and-stretch-wicking-technology-fast-dry-and-breathable-mobile-pocket-air-shorts-atst00001.json
+2025-11-15 20:07:19 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-solid-mid-rise-trousers-smlw00004.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-essential-t-shirt-with-black-and-white-stripes-ywet00076.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-essential-polo-neck-t-shirt-with-short-sleeves-ywet00075.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-flared-sleeveless-solid-dress-ywd00112.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/betty-flared-floral-corsage-dress-ywd00096.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/embroidered-sleeveless-top-wto00164.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/round-neck-embroidered-top-wto00149.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/floral-print-round-neck-loungewear-t-shirt-wsto00225.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/text-print-round-neck-loungewear-t-shirt-wsto00217.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/text-print-round-neck-loungewear-t-shirt-wsto00215.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/text-print-round-neck-loungewear-t-shirt-wsto00214.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/text-print-round-neck-loungewear-t-shirt-wsto00206.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/text-print-crew-neck-loungewear-t-shirt-wsto00203.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/text-print-crew-neck-loungewear-t-shirt-wsto00192.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/heart-print-crew-neck-loungewear-t-shirt-wsto00185.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/animal-print-crew-neck-loungewear-t-shirt-wsto00183.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/new-in-women/products/striped-loungewear-t-shirt-wsto00144.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-jacquard-t-shirt-pfct00003.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/slouch-fit-solid-high-rise-jeans-lej00004.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/elastomultiester-fabric-ultra-light-weight-enhanced-flexibility-and-stretch-wicking-technology-fast-dry-and-breathable-mobile-pocket-air-shorts-atst00001.json
+2025-11-15 20:07:25 [styleunion_spider_json] INFO: Requesting JSON: https://styleunion.in/collections/bestsellers/products/regular-fit-solid-mid-rise-trousers-smlw00004.json
