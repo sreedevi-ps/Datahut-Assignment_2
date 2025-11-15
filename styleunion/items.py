@@ -1,3 +1,4 @@
+
 from scrapy import Item, Field
 
 
@@ -17,4 +18,3 @@ class ProductItem(Item):
     currency = Field()
 
     # <-- Newline
-
