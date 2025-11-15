@@ -1,0 +1,35 @@
+Content-Length: 2365
+Date: Sat, 15 Nov 2025 18:59:14 GMT
+Content-Type: application/json; charset=utf-8
+Cf-Ray: 99f0fc0bfacc3a31-BOM
+X-Sorting-Hat-Podid: 248
+X-Sorting-Hat-Shopid: 62347542777
+X-Storefront-Renderer-Rendered: 1
+Set-Cookie: _shopify_y=87b10afe-a42a-475e-abc3-5efac4b5bcf7; domain=styleunion.in; path=/; expires=Mon, 16 Nov 2026 00:59:14 GMT; SameSite=Lax
+Set-Cookie: _shopify_s=5a9a6b62-bb37-4e67-81e8-706d2ad60ff9; domain=styleunion.in; path=/; expires=Sat, 15 Nov 2025 19:29:14 GMT; SameSite=Lax
+Etag: "cacheable:205318485ac73f7def3a942949fe2896"
+Content-Encoding: br
+Shopify-Complexity-Score: 360
+X-Frame-Options: DENY
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=7889238
+X-Shopid: 62347542777
+X-Shardid: 248
+Vary: Accept
+Vary: accept-encoding
+Alt-Svc: h3=":443"; ma=86400
+Content-Language: en-IN
+Powered-By: Shopify
+Server-Timing: processing;dur=39;desc="gc:1", db;dur=10, db_async;dur=2.759, asn;desc="133301", edge;desc="BOM", country;desc="IN", servedBy;desc="hfpj", requestID;desc="ea657c72-6ada-4c72-bed6-d0c6e9ed5179-1763233153", _y;desc="87b10afe-a42a-475e-abc3-5efac4b5bcf7", _s;desc="5a9a6b62-bb37-4e67-81e8-706d2ad60ff9", _cmp;desc="3.AMPS_INKL_f_f_Riv5LYXyShygNs8nq5rQbQ_%7B%7D"
+Server-Timing: cfRequestDuration;dur=142.999887
+X-Dc: gcp-asia-southeast1,gcp-asia-southeast1,gcp-asia-southeast1
+X-Request-Id: ea657c72-6ada-4c72-bed6-d0c6e9ed5179-1763233153
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ZY4sHZkq%2BwB47K9KxDJv%2Flnd0G7vR8FRZgUg0IfB0ciBMceL%2FILAl8KRH7SSCeCq6iivTpOrKP%2B4uPeHCJiuRnHrWX1ZX8Ny4Rtjd3kNKn%2FsnAFQJ3oEvkos3YnloQU%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+X-Download-Options: noopen
+Server: cloudflare

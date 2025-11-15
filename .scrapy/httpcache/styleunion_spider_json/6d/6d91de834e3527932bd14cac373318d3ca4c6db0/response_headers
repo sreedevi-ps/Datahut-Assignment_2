@@ -1,0 +1,36 @@
+Content-Length: 2026
+Date: Sat, 15 Nov 2025 18:21:07 GMT
+Content-Type: application/json; charset=utf-8
+Cf-Ray: 99f0c438dc273a31-BOM
+X-Sorting-Hat-Podid: 248
+X-Sorting-Hat-Shopid: 62347542777
+X-Storefront-Renderer-Rendered: 1
+Set-Cookie: _shopify_y=87b10afe-a42a-475e-abc3-5efac4b5bcf7; domain=styleunion.in; path=/; expires=Mon, 16 Nov 2026 00:21:07 GMT; SameSite=Lax
+Set-Cookie: _shopify_s=5a9a6b62-bb37-4e67-81e8-706d2ad60ff9; domain=styleunion.in; path=/; expires=Sat, 15 Nov 2025 18:51:07 GMT; SameSite=Lax
+Set-Cookie: _shopify_essential=:AZqItTTfAAEAjkk7qYSGf6NnCC9CB-2VKY0d66u7-NByOe3TW2qd2zhPeDglovosfAPnQWGkl8gyoxuDJ5uQAy9y1y-yJ9a4xdUfveGf6hKOgT6PN7Yp0sf4dyvzo80MaM06_en6l7oek9hFKoAyl9NCpreR7jhw44Sf1LagoLfBRHDPO66la1XBQIuuZ0_AipXKPt7MqthWo4M9HQbz6lMS4eYgytQw0s_QBH-2kKl4mOxY31u7whIq1vGXIRAjLr2ntBuKQ6jbsbSwp-rTUp4ULHeH5QMVRSqwhHsK4vwg8TbmTh2qrKTaJL09jE6XqnnDOKibhZD2oZOokBUxhNyL:; Max-Age=31536000; Path=/; HttpOnly; Secure; Priority=High; SameSite=Lax
+Etag: "cacheable:90ffd8c938ddb8fec152e0187100be3c"
+Content-Encoding: br
+Shopify-Complexity-Score: 0
+X-Frame-Options: DENY
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=7889238
+X-Shopid: 62347542777
+X-Shardid: 248
+Vary: Accept
+Vary: accept-encoding
+Alt-Svc: h3=":443"; ma=86400
+Content-Language: en-IN
+Powered-By: Shopify
+Server-Timing: processing;dur=34;desc="gc:3", db;dur=8, db_async;dur=2.595, asn;desc="133301", edge;desc="BOM", country;desc="IN", servedBy;desc="g5wg", requestID;desc="0a3261ba-46b1-456f-bfd0-5c7e66212740-1763230867", _y;desc="87b10afe-a42a-475e-abc3-5efac4b5bcf7", _s;desc="5a9a6b62-bb37-4e67-81e8-706d2ad60ff9", _cmp;desc="3.AMPS_INKL_f_f_Riv5LYXyShygNs8nq5rQbQ_%7B%7D"
+Server-Timing: cfRequestDuration;dur=128.999949
+X-Dc: gcp-asia-southeast1,gcp-asia-southeast1,gcp-asia-southeast1
+X-Request-Id: 0a3261ba-46b1-456f-bfd0-5c7e66212740-1763230867
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=XjroCWN20%2B2E8kHopJeC%2BdWR5CENHmdc%2BPIdTW8DFzKSAFecUFoblq1OH9yimg3VIscMPpMAd%2Fh6bG9%2F3ahglU0zartntMMIMJEySErvcGrsUOKQLiuMA3mdM6CsUAs%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+X-Download-Options: noopen
+Server: cloudflare

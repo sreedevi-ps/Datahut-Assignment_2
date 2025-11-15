@@ -1,0 +1,35 @@
+Content-Length: 2186
+Date: Sat, 15 Nov 2025 19:21:18 GMT
+Content-Type: application/json; charset=utf-8
+Cf-Ray: 99f11c5ffe8e3a31-BOM
+X-Sorting-Hat-Podid: 248
+X-Sorting-Hat-Shopid: 62347542777
+X-Storefront-Renderer-Rendered: 1
+Set-Cookie: _shopify_y=87b10afe-a42a-475e-abc3-5efac4b5bcf7; domain=styleunion.in; path=/; expires=Mon, 16 Nov 2026 01:21:18 GMT; SameSite=Lax
+Set-Cookie: _shopify_s=5a9a6b62-bb37-4e67-81e8-706d2ad60ff9; domain=styleunion.in; path=/; expires=Sat, 15 Nov 2025 19:51:18 GMT; SameSite=Lax
+Etag: "cacheable:01907f96785bfb03d813c7d4f95bffaa"
+Content-Encoding: br
+Shopify-Complexity-Score: 370
+X-Frame-Options: DENY
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=7889238
+X-Shopid: 62347542777
+X-Shardid: 248
+Vary: Accept
+Vary: accept-encoding
+Alt-Svc: h3=":443"; ma=86400
+Content-Language: en-IN
+Powered-By: Shopify
+Server-Timing: processing;dur=40;desc="gc:3", db;dur=10, db_async;dur=2.868, asn;desc="133301", edge;desc="BOM", country;desc="IN", servedBy;desc="tgnp", requestID;desc="1677f30b-aac8-40d7-8a32-373cc48bcdc0-1763234478", _y;desc="87b10afe-a42a-475e-abc3-5efac4b5bcf7", _s;desc="5a9a6b62-bb37-4e67-81e8-706d2ad60ff9", _cmp;desc="3.AMPS_INKL_f_f_Riv5LYXyShygNs8nq5rQbQ_%7B%7D"
+Server-Timing: cfRequestDuration;dur=155.999899
+X-Dc: gcp-asia-southeast1,gcp-asia-southeast1,gcp-asia-southeast1
+X-Request-Id: 1677f30b-aac8-40d7-8a32-373cc48bcdc0-1763234478
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=1tKY%2FXfZGpfXebO3u5kZPXyuQrv%2BbKUXgMBwL3%2BTLmmNrUd6nDQ7HPtZADHkU4K9w6JO%2BkBTMqBvMysBIL2%2Bi1%2FqzJhnvAEj76qVAzcWe%2F3DQHB2MIG7H6ladhGsyh4%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+X-Download-Options: noopen
+Server: cloudflare

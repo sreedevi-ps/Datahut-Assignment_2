@@ -1,0 +1,35 @@
+Content-Length: 1959
+Date: Sat, 15 Nov 2025 19:07:01 GMT
+Content-Type: application/json; charset=utf-8
+Cf-Ray: 99f10773ff1f3a31-BOM
+X-Sorting-Hat-Podid: 248
+X-Sorting-Hat-Shopid: 62347542777
+X-Storefront-Renderer-Rendered: 1
+Set-Cookie: _shopify_y=87b10afe-a42a-475e-abc3-5efac4b5bcf7; domain=styleunion.in; path=/; expires=Mon, 16 Nov 2026 01:07:01 GMT; SameSite=Lax
+Set-Cookie: _shopify_s=5a9a6b62-bb37-4e67-81e8-706d2ad60ff9; domain=styleunion.in; path=/; expires=Sat, 15 Nov 2025 19:37:01 GMT; SameSite=Lax
+Etag: "cacheable:7361f61339de9b1305e08c7fd72c154c"
+Content-Encoding: br
+Shopify-Complexity-Score: 460
+X-Frame-Options: DENY
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=7889238
+X-Shopid: 62347542777
+X-Shardid: 248
+Vary: Accept
+Vary: accept-encoding
+Alt-Svc: h3=":443"; ma=86400
+Content-Language: en-IN
+Powered-By: Shopify
+Server-Timing: processing;dur=49;desc="gc:1", db;dur=11, db_async;dur=3.805, asn;desc="133301", edge;desc="BOM", country;desc="IN", servedBy;desc="g7t4", requestID;desc="84e85f7a-cd3b-428d-b1ac-c190714520fb-1763233621", _y;desc="87b10afe-a42a-475e-abc3-5efac4b5bcf7", _s;desc="5a9a6b62-bb37-4e67-81e8-706d2ad60ff9", _cmp;desc="3.AMPS_INKL_f_f_Riv5LYXyShygNs8nq5rQbQ_%7B%7D"
+Server-Timing: cfRequestDuration;dur=144.000292
+X-Dc: gcp-asia-southeast1,gcp-asia-southeast1,gcp-asia-southeast1
+X-Request-Id: 84e85f7a-cd3b-428d-b1ac-c190714520fb-1763233621
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=CgbrIznninPeabnJIDjf%2FWUxzK1h3rA6GInXuTi7%2FPbTZjWvKkwSzZu3Le84QOaTYWHgtZxlOJPmznDadBW1vIWVQCuPFObOB93opxM7rTi4Dy%2BV8QlittKRmaxB12Y%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+X-Download-Options: noopen
+Server: cloudflare

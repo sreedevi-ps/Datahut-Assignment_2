@@ -1,0 +1,35 @@
+Content-Length: 2382
+Date: Sat, 15 Nov 2025 19:08:04 GMT
+Content-Type: application/json; charset=utf-8
+Cf-Ray: 99f109023ace3a31-BOM
+X-Sorting-Hat-Podid: 248
+X-Sorting-Hat-Shopid: 62347542777
+X-Storefront-Renderer-Rendered: 1
+Set-Cookie: _shopify_y=87b10afe-a42a-475e-abc3-5efac4b5bcf7; domain=styleunion.in; path=/; expires=Mon, 16 Nov 2026 01:08:04 GMT; SameSite=Lax
+Set-Cookie: _shopify_s=5a9a6b62-bb37-4e67-81e8-706d2ad60ff9; domain=styleunion.in; path=/; expires=Sat, 15 Nov 2025 19:38:04 GMT; SameSite=Lax
+Etag: "cacheable:3e5c68fe880fb593bf42d535969ac000"
+Content-Encoding: br
+Shopify-Complexity-Score: 440
+X-Frame-Options: DENY
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=7889238
+X-Shopid: 62347542777
+X-Shardid: 248
+Vary: Accept
+Vary: accept-encoding
+Alt-Svc: h3=":443"; ma=86400
+Content-Language: en-IN
+Powered-By: Shopify
+Server-Timing: processing;dur=48;desc="gc:4", db;dur=7, db_async;dur=3.044, asn;desc="133301", edge;desc="BOM", country;desc="IN", servedBy;desc="c4cc", requestID;desc="9c6bc40a-9445-462a-a9e5-8d57e8f4c1d9-1763233684", _y;desc="87b10afe-a42a-475e-abc3-5efac4b5bcf7", _s;desc="5a9a6b62-bb37-4e67-81e8-706d2ad60ff9", _cmp;desc="3.AMPS_INKL_f_f_Riv5LYXyShygNs8nq5rQbQ_%7B%7D"
+Server-Timing: cfRequestDuration;dur=141.999960
+X-Dc: gcp-asia-southeast1,gcp-asia-southeast1,gcp-asia-southeast1
+X-Request-Id: 9c6bc40a-9445-462a-a9e5-8d57e8f4c1d9-1763233684
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=CkX90LeWws6jsbw3fbEUIcClagXhuZ0StcajjoRNESbCHdzxNi3Ph9caBYAvk%2Fp6vJteRg6VlaDYNbZYCs1Z%2BBtjT%2BQN4Zaw4nQ9%2F5uxmdS1dKetanOyV3SRzBmDrfk%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+X-Download-Options: noopen
+Server: cloudflare

@@ -1,0 +1,35 @@
+Content-Length: 2009
+Date: Sat, 15 Nov 2025 18:44:24 GMT
+Content-Type: application/json; charset=utf-8
+Cf-Ray: 99f0e6516a4c3a31-BOM
+X-Sorting-Hat-Podid: 248
+X-Sorting-Hat-Shopid: 62347542777
+X-Storefront-Renderer-Rendered: 1
+Set-Cookie: _shopify_y=87b10afe-a42a-475e-abc3-5efac4b5bcf7; domain=styleunion.in; path=/; expires=Mon, 16 Nov 2026 00:44:24 GMT; SameSite=Lax
+Set-Cookie: _shopify_s=5a9a6b62-bb37-4e67-81e8-706d2ad60ff9; domain=styleunion.in; path=/; expires=Sat, 15 Nov 2025 19:14:24 GMT; SameSite=Lax
+Etag: "cacheable:5a4a5fcb01f0ecf03d457bfc6cd31e33"
+Content-Encoding: br
+Shopify-Complexity-Score: 0
+X-Frame-Options: DENY
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=7889238
+X-Shopid: 62347542777
+X-Shardid: 248
+Vary: Accept
+Vary: accept-encoding
+Alt-Svc: h3=":443"; ma=86400
+Content-Language: en-IN
+Powered-By: Shopify
+Server-Timing: processing;dur=44, db;dur=13, db_async;dur=3.502, asn;desc="133301", edge;desc="BOM", country;desc="IN", servedBy;desc="szc2", requestID;desc="4d23322a-115c-433a-aa82-5883b19d2f93-1763232263", _y;desc="87b10afe-a42a-475e-abc3-5efac4b5bcf7", _s;desc="5a9a6b62-bb37-4e67-81e8-706d2ad60ff9", _cmp;desc="3.AMPS_INKL_f_f_Riv5LYXyShygNs8nq5rQbQ_%7B%7D"
+Server-Timing: cfRequestDuration;dur=135.999918
+X-Dc: gcp-asia-southeast1,gcp-asia-southeast1,gcp-asia-southeast1
+X-Request-Id: 4d23322a-115c-433a-aa82-5883b19d2f93-1763232263
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=YaS%2FGix2BziO%2Fwajlh2IJd%2FhyRunyDd4LuxE3ubd7D%2B9ZZsWc%2Bwp2MAlADH8C8cnTJEUokbahXUKZ6WLf2b%2FKDHu3gCh6cn6oRy%2Bn3z4vNKEJsW%2F7gNADm9T%2FK8DV8Q%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+X-Download-Options: noopen
+Server: cloudflare
